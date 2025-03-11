@@ -1,12 +1,3 @@
-# [ECCV 2024] Textual Query-Driven Mask Transformer for Domain Generalized Segmentation
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textual-query-driven-mask-transformer-for/domain-generalization-on-gta5-to-cityscapes)](https://paperswithcode.com/sota/domain-generalization-on-gta5-to-cityscapes?p=textual-query-driven-mask-transformer-for) <br />
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textual-query-driven-mask-transformer-for/domain-generalization-on-gta-to-avg)](https://paperswithcode.com/sota/domain-generalization-on-gta-to-avg?p=textual-query-driven-mask-transformer-for) <br />
-### [**Textual Query-Driven Mask Transformer for Domain Generalized Segmentation**](https://arxiv.org/abs/2407.09033)
->[Byeonghyun Pak](https://byeonghyunpak.github.io/)\*, [Byeongju Woo](https://byeongjuwoo.github.io/)\*, [Sunghwan Kim](https://sunghwan.me/)\*, [Dae-hwan Kim](https://scholar.google.com/citations?hl=en&user=_5Scn8YAAAAJ), [Hoseong Kim](https://scholar.google.com/citations?hl=en&user=Zy7Sz5UAAAAJ)†\
->Agency for Defense Development\
->ECCV 2024
-
-#### [[`Project Page`](https://byeonghyunpak.github.io/tqdm/)] [[`Paper`](https://arxiv.org/abs/2407.09033)]
 
 ## Environment
 ### Requirements
@@ -28,14 +19,7 @@
   | CLIP | `ViT-B-16.pt` |[official repo](https://github.com/openai/CLIP/blob/a1d071733d7111c9c014f024669f959182114e33/clip/clip.py#L30)|
   | EVA02-CLIP | `EVA02_CLIP_L_336_psz14_s6B` |[official repo](https://github.com/baaivision/EVA/tree/master/EVA-CLIP#eva-02-clip-series)|
 
-### Checkpoints
-- You can download **tqdm** model checkpoints:
 
-  | Model | Pretrained | Trained on | Config | Link |
-  |-----|-----|-----|-----|:-----:|
-  | `tqdm-clip-vit-b-gta` | CLIP | GTA5 | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_clip_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1oKTIuPoXTJyOqqof1yqtb10m41nVkreM/view?usp=drive_link)|
-  | `tqdm-eva02-clip-vit-l-gta` | EVA02-CLIP | GTA5 | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_eva_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1niKdUcoeP9Gd4F2O0LikTHBg39xHO8j0/view?usp=drive_link)|
-  | `tqdm-eva02-clip-vit-l-city` | EVA02-CLIP | Cityscapes | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_eva_vit-l_1e-4_20k-c2b-512.py) |[download link](https://drive.google.com/file/d/1_FXNthSshuvGraEX-2JxQWsGvtpeG9A7/view?usp=drive_link)|
 
 ## Datasets
 - To set up datasets, please follow [the official **TLDR** repo](https://github.com/ssssshwan/TLDR/tree/main?tab=readme-ov-file#setup-datasets).
