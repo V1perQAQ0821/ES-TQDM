@@ -1,3 +1,7 @@
+If you find our work helpful, please cite it as:
+"Efficient Semantic Segmentation across Domains: Enhancing Generalization with Multi-Scale and Simple Attention Modules"
+LUO Yuan, CHEN Junlei, YAO Zerui
+The Visual Computer
 
 ## Environment
 ### Requirements
